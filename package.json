@@ -1,0 +1,15 @@
+{
+  "name": "@crypt/outshine",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Rafael Torreson <rafael.torreson@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/chokidar": "^2.1.3",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}
