@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "target": "es2019",
+      "module":"CommonJS",
+      "lib": ["ES6", "DOM"],
+      "allowJs": true,
+      "outDir": "./dist",
+      "rootDirs": ["src"],
+      "removeComments": true,
+      "typeRoots": ["./node_modules/@types", "./src/@types"],
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "forceConsistentCasingInFileNames": true,
+      "preserveSymlinks": true,
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "paths":{
+        "@/*": ["*"]
+      },
+      "strict": true
+    },
+    "include":["src"],
+    "exclude": []
+  }
+  
